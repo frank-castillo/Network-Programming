@@ -1,0 +1,14 @@
+For this first programming assignment, take the simple echo client server console application we developed in class and expand it to become a chat application between 2 friends. 
+Here are the specs:
+	1-The person who starts the server will wait for the client to connect. Then enters the chatting mode. 
+	The chatting mode ends when the client sends an empty msg, meaning request to disconnect.
+
+	2-Client app should provide ip address of the server and also the port number as command line argument. 
+		THIS IS VERY IMPORTANT. So do not use defaultPort, as it is currently done in the sample code attached.
+	2-Chat application on both ends should grab msg from users and send it to the other side..
+
+	3-The other side should optionally save the address and info of the friend in a list for future application when we will have multiple friends chatting together. 
+		At that point you would need to know which friend is send you the msg.
+
+Note: I have cleaned up the server and client code so it is cleaner and simpler.
+
